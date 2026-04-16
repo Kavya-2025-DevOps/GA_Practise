@@ -1,0 +1,14 @@
+name : Testing workflow
+on: push
+
+jobs:
+  testing-build:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name : Hello Team
+        run : echo "Welcome"
+
+      - name: Display
+        run : date
+  
