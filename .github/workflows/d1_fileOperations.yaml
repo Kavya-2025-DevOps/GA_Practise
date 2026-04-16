@@ -13,7 +13,6 @@ jobs:
       - name : Display the File
         run : cat mytext.txt
   
-    steps:
       - name : Display the date
         run : date
       - name : Display the Directory content
