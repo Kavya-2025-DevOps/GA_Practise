@@ -1,0 +1,11 @@
+name : Testing work flow Dispatch
+
+on:workflow_dispatch 
+
+jobs:
+  runs-on:ubuntu-latest
+
+  steps:
+    - name : Test the flow
+      run : echo " Run complete "
+
