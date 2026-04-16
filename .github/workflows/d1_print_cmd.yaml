@@ -1,4 +1,4 @@
-name : Testing workflow
+name : D1_print_commands
 on: push
 
 jobs:
