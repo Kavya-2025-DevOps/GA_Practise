@@ -1,0 +1,9 @@
+name : Testing
+
+on: push
+jobs:
+  TestBuild:
+    runs-on: ubuntu:latest
+    steps:
+    - run: echo "New Line"
+  
