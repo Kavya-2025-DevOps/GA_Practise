@@ -16,7 +16,7 @@ jobs:
       - name : Display the date
         run : date
       - name : Display the Directory content
-        run : ls - lrth
+        run : ls -lrth
 
       - name : Display present path
         run : pwd
